@@ -1,0 +1,148 @@
+.heroimg{
+    background-image: url("imgs/Asset\ 5.png");
+    background-repeat: no-repeat;
+}
+body{
+    background-color: whitesmoke !important;;
+}
+.bus-img{
+    width: 30rem;
+    height: 23.5rem;
+    margin-top: 19.5rem;
+    position: relative;
+    animation: mymove 6s infinite;
+    animation-delay: 1s;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 1000px;}
+  }
+  nav{
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed !important;
+      top: 0 !important;
+      width: 100%;
+      font-size: 16px;
+      z-index: 1;
+  }
+  .navbar-brand{
+    font-size: 25px;
+  }
+  .logo-img{
+    width: 4rem;
+    height: 3.5rem;
+  }
+  .nav-head{
+      font-size: 30px;
+      color: #1297DC;
+     
+  }
+  .nav-head:hover{
+    color: #1297DC;
+    text-decoration: none;
+}
+  .nav-link{
+      color: white;
+      margin-left: 20px;
+  }
+  .nav-link:hover{
+    color: #1297DC;
+    border: 1px solid #1297DC
+}
+.user_img{
+    top:5px;
+}
+#hotel{
+    margin: 20px;
+    visibility: hidden;
+    position: absolute;
+}
+#rent{
+    margin: 20px;
+    visibility: hidden;
+    position: absolute;
+}
+.r1{
+    background-color: white !important;
+    padding: 4%; 
+    margin-top: 0px !important;
+}
+.nav-tabs a{
+    text-align: center;
+    margin-left: 5rem; font-size: 20px;
+}
+.services-section{
+    padding: 8rem;
+}
+.hd-3{
+    font-size: 25px; text-align: center;
+    font-weight: 400; line-height: 4rem;
+}
+.hd-4{
+    font-size: 35px; font-weight: bold;
+     line-height: 4rem; font-family: abril fatface,cursive;
+}
+.fa-bars{
+    font-size: 1.5rem; color:lightgray;
+}
+.serv-icons,.count-icon{
+    font-size: 4rem; color:#1297DC;
+ 
+} 
+.tours-section{
+    padding:2rem
+}
+.price{ color:#1297DC; 
+    font-size: 20px; font-weight: 500;
+    text-align: center;
+}
+.bgimg{
+    background-image: url(imgs/Azad\ Kashmir.jpg);
+    background-size: cover;
+    height: 20rem !important;
+}
+.bgimg:hover .ontext {
+   display: block;
+   
+}
+.ontext{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5); color: white;
+    padding: 2rem;  height: 100%;
+}
+.count{
+    font-size: 25px; font-weight: bold; margin-top: 1rem;
+     font-family: abril fatface,cursive;
+}
+.counter-section{
+    background-image: url(imgs/bg_1.jpg);
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+   color: white;
+}
+.customer-section{
+    background-color: #1297DC; color: white;
+}
+.quote{ padding: 1rem;  border-radius: 50%;
+    background-color:#1297DC; width: 50px;
+    margin-top: -8%; margin-left:45%;
+    position: absolute;
+}
+.testimony-wrap{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contact-icons{
+    font-size: 20px; margin-right: 1rem;
+    
+}
+.pages > li {
+margin-top: 1rem;
+}
+.pages >li> a { color: white;
+}
+.para{
+
+    border-top: 0.5px solid lightgray;
+}
